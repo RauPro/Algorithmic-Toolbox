@@ -32,6 +32,6 @@ int elementCount(int n){
 }
 int main(){
 	Fast
-	int n;cin>>n
+	int n;cin>>n;
 	cout<<elementCount(n)<<endl;
 } 
