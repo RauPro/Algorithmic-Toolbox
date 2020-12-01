@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Divide_and_Conquer main.cpp)
 add_executable(binary-search binary-search.cpp)
+add_executable(majority majority.cpp)

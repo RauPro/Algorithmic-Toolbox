@@ -135,6 +135,19 @@ binary-search/fast:
 	$(MAKE) -f CMakeFiles\binary-search.dir\build.make CMakeFiles/binary-search.dir/build
 .PHONY : binary-search/fast
 
+#=============================================================================
+# Target rules for targets named majority
+
+# Build rule for target.
+majority: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 majority
+.PHONY : majority
+
+# fast build rule for target.
+majority/fast:
+	$(MAKE) -f CMakeFiles\majority.dir\build.make CMakeFiles/majority.dir/build
+.PHONY : majority/fast
+
 binary-search.obj: binary-search.cpp.obj
 
 .PHONY : binary-search.obj
@@ -189,6 +202,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Divide_and_Conquer.dir\build.make CMakeFiles/Divide_and_Conquer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+majority.obj: majority.cpp.obj
+
+.PHONY : majority.obj
+
+# target to build an object file
+majority.cpp.obj:
+	$(MAKE) -f CMakeFiles\majority.dir\build.make CMakeFiles/majority.dir/majority.cpp.obj
+.PHONY : majority.cpp.obj
+
+majority.i: majority.cpp.i
+
+.PHONY : majority.i
+
+# target to preprocess a source file
+majority.cpp.i:
+	$(MAKE) -f CMakeFiles\majority.dir\build.make CMakeFiles/majority.dir/majority.cpp.i
+.PHONY : majority.cpp.i
+
+majority.s: majority.cpp.s
+
+.PHONY : majority.s
+
+# target to generate assembly for a file
+majority.cpp.s:
+	$(MAKE) -f CMakeFiles\majority.dir\build.make CMakeFiles/majority.dir/majority.cpp.s
+.PHONY : majority.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -197,6 +237,7 @@ help:
 	@echo ... depend
 	@echo ... Divide_and_Conquer
 	@echo ... binary-search
+	@echo ... majority
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... binary-search.obj
@@ -205,6 +246,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... majority.obj
+	@echo ... majority.i
+	@echo ... majority.s
 .PHONY : help
 
 

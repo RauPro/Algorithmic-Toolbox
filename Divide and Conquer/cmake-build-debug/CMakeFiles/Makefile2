@@ -54,12 +54,14 @@ CMAKE_BINARY_DIR = "C:\Users\CORE i5\Desktop\Cusos en Proceso\Algorithms\Divide 
 # The main recursive "all" target.
 all: CMakeFiles/Divide_and_Conquer.dir/all
 all: CMakeFiles/binary-search.dir/all
+all: CMakeFiles/majority.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Divide_and_Conquer.dir/clean
 clean: CMakeFiles/binary-search.dir/clean
+clean: CMakeFiles/majority.dir/clean
 
 .PHONY : clean
 
@@ -121,6 +123,33 @@ binary-search: CMakeFiles/binary-search.dir/rule
 CMakeFiles/binary-search.dir/clean:
 	$(MAKE) -f CMakeFiles\binary-search.dir\build.make CMakeFiles/binary-search.dir/clean
 .PHONY : CMakeFiles/binary-search.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/majority.dir
+
+# All Build rule for target.
+CMakeFiles/majority.dir/all:
+	$(MAKE) -f CMakeFiles\majority.dir\build.make CMakeFiles/majority.dir/depend
+	$(MAKE) -f CMakeFiles\majority.dir\build.make CMakeFiles/majority.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\CORE i5\Desktop\Cusos en Proceso\Algorithms\Divide and Conquer\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target majority"
+.PHONY : CMakeFiles/majority.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/majority.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\CORE i5\Desktop\Cusos en Proceso\Algorithms\Divide and Conquer\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/majority.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\CORE i5\Desktop\Cusos en Proceso\Algorithms\Divide and Conquer\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/majority.dir/rule
+
+# Convenience name for target.
+majority: CMakeFiles/majority.dir/rule
+
+.PHONY : majority
+
+# clean rule for target.
+CMakeFiles/majority.dir/clean:
+	$(MAKE) -f CMakeFiles\majority.dir\build.make CMakeFiles/majority.dir/clean
+.PHONY : CMakeFiles/majority.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -55,4 +55,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Divide_and_Conquer.dir/DependInfo.cmake"
   "CMakeFiles/binary-search.dir/DependInfo.cmake"
+  "CMakeFiles/majority.dir/DependInfo.cmake"
   )
