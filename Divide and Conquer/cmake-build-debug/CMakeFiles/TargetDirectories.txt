@@ -1,5 +1,7 @@
 C:/Users/CORE i5/Desktop/Cusos en Proceso/Algorithms/Divide and Conquer/cmake-build-debug/CMakeFiles/Divide_and_Conquer.dir
+C:/Users/CORE i5/Desktop/Cusos en Proceso/Algorithms/Divide and Conquer/cmake-build-debug/CMakeFiles/improvingQuickSort.dir
 C:/Users/CORE i5/Desktop/Cusos en Proceso/Algorithms/Divide and Conquer/cmake-build-debug/CMakeFiles/binary-search.dir
 C:/Users/CORE i5/Desktop/Cusos en Proceso/Algorithms/Divide and Conquer/cmake-build-debug/CMakeFiles/majority.dir
 C:/Users/CORE i5/Desktop/Cusos en Proceso/Algorithms/Divide and Conquer/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/CORE i5/Desktop/Cusos en Proceso/Algorithms/Divide and Conquer/cmake-build-debug/CMakeFiles/QuickSort.dir
 C:/Users/CORE i5/Desktop/Cusos en Proceso/Algorithms/Divide and Conquer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

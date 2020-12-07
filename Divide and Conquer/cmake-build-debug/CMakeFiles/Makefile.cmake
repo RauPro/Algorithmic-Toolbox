@@ -54,6 +54,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Divide_and_Conquer.dir/DependInfo.cmake"
+  "CMakeFiles/improvingQuickSort.dir/DependInfo.cmake"
   "CMakeFiles/binary-search.dir/DependInfo.cmake"
   "CMakeFiles/majority.dir/DependInfo.cmake"
+  "CMakeFiles/QuickSort.dir/DependInfo.cmake"
   )

@@ -123,6 +123,19 @@ Divide_and_Conquer/fast:
 .PHONY : Divide_and_Conquer/fast
 
 #=============================================================================
+# Target rules for targets named improvingQuickSort
+
+# Build rule for target.
+improvingQuickSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 improvingQuickSort
+.PHONY : improvingQuickSort
+
+# fast build rule for target.
+improvingQuickSort/fast:
+	$(MAKE) -f CMakeFiles\improvingQuickSort.dir\build.make CMakeFiles/improvingQuickSort.dir/build
+.PHONY : improvingQuickSort/fast
+
+#=============================================================================
 # Target rules for targets named binary-search
 
 # Build rule for target.
@@ -147,6 +160,46 @@ majority: cmake_check_build_system
 majority/fast:
 	$(MAKE) -f CMakeFiles\majority.dir\build.make CMakeFiles/majority.dir/build
 .PHONY : majority/fast
+
+#=============================================================================
+# Target rules for targets named QuickSort
+
+# Build rule for target.
+QuickSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 QuickSort
+.PHONY : QuickSort
+
+# fast build rule for target.
+QuickSort/fast:
+	$(MAKE) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/build
+.PHONY : QuickSort/fast
+
+Invertions.obj: Invertions.cpp.obj
+
+.PHONY : Invertions.obj
+
+# target to build an object file
+Invertions.cpp.obj:
+	$(MAKE) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/Invertions.cpp.obj
+.PHONY : Invertions.cpp.obj
+
+Invertions.i: Invertions.cpp.i
+
+.PHONY : Invertions.i
+
+# target to preprocess a source file
+Invertions.cpp.i:
+	$(MAKE) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/Invertions.cpp.i
+.PHONY : Invertions.cpp.i
+
+Invertions.s: Invertions.cpp.s
+
+.PHONY : Invertions.s
+
+# target to generate assembly for a file
+Invertions.cpp.s:
+	$(MAKE) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/Invertions.cpp.s
+.PHONY : Invertions.cpp.s
 
 binary-search.obj: binary-search.cpp.obj
 
@@ -174,6 +227,33 @@ binary-search.s: binary-search.cpp.s
 binary-search.cpp.s:
 	$(MAKE) -f CMakeFiles\binary-search.dir\build.make CMakeFiles/binary-search.dir/binary-search.cpp.s
 .PHONY : binary-search.cpp.s
+
+improvingQuickSort.obj: improvingQuickSort.cpp.obj
+
+.PHONY : improvingQuickSort.obj
+
+# target to build an object file
+improvingQuickSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\improvingQuickSort.dir\build.make CMakeFiles/improvingQuickSort.dir/improvingQuickSort.cpp.obj
+.PHONY : improvingQuickSort.cpp.obj
+
+improvingQuickSort.i: improvingQuickSort.cpp.i
+
+.PHONY : improvingQuickSort.i
+
+# target to preprocess a source file
+improvingQuickSort.cpp.i:
+	$(MAKE) -f CMakeFiles\improvingQuickSort.dir\build.make CMakeFiles/improvingQuickSort.dir/improvingQuickSort.cpp.i
+.PHONY : improvingQuickSort.cpp.i
+
+improvingQuickSort.s: improvingQuickSort.cpp.s
+
+.PHONY : improvingQuickSort.s
+
+# target to generate assembly for a file
+improvingQuickSort.cpp.s:
+	$(MAKE) -f CMakeFiles\improvingQuickSort.dir\build.make CMakeFiles/improvingQuickSort.dir/improvingQuickSort.cpp.s
+.PHONY : improvingQuickSort.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -236,13 +316,21 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... Divide_and_Conquer
+	@echo ... improvingQuickSort
 	@echo ... binary-search
 	@echo ... majority
 	@echo ... edit_cache
+	@echo ... QuickSort
 	@echo ... rebuild_cache
+	@echo ... Invertions.obj
+	@echo ... Invertions.i
+	@echo ... Invertions.s
 	@echo ... binary-search.obj
 	@echo ... binary-search.i
 	@echo ... binary-search.s
+	@echo ... improvingQuickSort.obj
+	@echo ... improvingQuickSort.i
+	@echo ... improvingQuickSort.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -18,8 +18,6 @@ ll binaryS(int low, int high,vi vector,int key){
         return y;
     }
     else{
-        //cout<<low<<endl;
-        //cout<<high<<endl;
         if(vector[mid]>key){
             return (binaryS(low,mid,vector,key));
         }

@@ -53,15 +53,19 @@ CMAKE_BINARY_DIR = "C:\Users\CORE i5\Desktop\Cusos en Proceso\Algorithms\Divide 
 
 # The main recursive "all" target.
 all: CMakeFiles/Divide_and_Conquer.dir/all
+all: CMakeFiles/improvingQuickSort.dir/all
 all: CMakeFiles/binary-search.dir/all
 all: CMakeFiles/majority.dir/all
+all: CMakeFiles/QuickSort.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Divide_and_Conquer.dir/clean
+clean: CMakeFiles/improvingQuickSort.dir/clean
 clean: CMakeFiles/binary-search.dir/clean
 clean: CMakeFiles/majority.dir/clean
+clean: CMakeFiles/QuickSort.dir/clean
 
 .PHONY : clean
 
@@ -98,13 +102,40 @@ CMakeFiles/Divide_and_Conquer.dir/clean:
 .PHONY : CMakeFiles/Divide_and_Conquer.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/improvingQuickSort.dir
+
+# All Build rule for target.
+CMakeFiles/improvingQuickSort.dir/all:
+	$(MAKE) -f CMakeFiles\improvingQuickSort.dir\build.make CMakeFiles/improvingQuickSort.dir/depend
+	$(MAKE) -f CMakeFiles\improvingQuickSort.dir\build.make CMakeFiles/improvingQuickSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\CORE i5\Desktop\Cusos en Proceso\Algorithms\Divide and Conquer\cmake-build-debug\CMakeFiles" --progress-num=7,8 "Built target improvingQuickSort"
+.PHONY : CMakeFiles/improvingQuickSort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/improvingQuickSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\CORE i5\Desktop\Cusos en Proceso\Algorithms\Divide and Conquer\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/improvingQuickSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\CORE i5\Desktop\Cusos en Proceso\Algorithms\Divide and Conquer\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/improvingQuickSort.dir/rule
+
+# Convenience name for target.
+improvingQuickSort: CMakeFiles/improvingQuickSort.dir/rule
+
+.PHONY : improvingQuickSort
+
+# clean rule for target.
+CMakeFiles/improvingQuickSort.dir/clean:
+	$(MAKE) -f CMakeFiles\improvingQuickSort.dir\build.make CMakeFiles/improvingQuickSort.dir/clean
+.PHONY : CMakeFiles/improvingQuickSort.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/binary-search.dir
 
 # All Build rule for target.
 CMakeFiles/binary-search.dir/all:
 	$(MAKE) -f CMakeFiles\binary-search.dir\build.make CMakeFiles/binary-search.dir/depend
 	$(MAKE) -f CMakeFiles\binary-search.dir\build.make CMakeFiles/binary-search.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\CORE i5\Desktop\Cusos en Proceso\Algorithms\Divide and Conquer\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target binary-search"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\CORE i5\Desktop\Cusos en Proceso\Algorithms\Divide and Conquer\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target binary-search"
 .PHONY : CMakeFiles/binary-search.dir/all
 
 # Build rule for subdir invocation for target.
@@ -131,7 +162,7 @@ CMakeFiles/binary-search.dir/clean:
 CMakeFiles/majority.dir/all:
 	$(MAKE) -f CMakeFiles\majority.dir\build.make CMakeFiles/majority.dir/depend
 	$(MAKE) -f CMakeFiles\majority.dir\build.make CMakeFiles/majority.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\CORE i5\Desktop\Cusos en Proceso\Algorithms\Divide and Conquer\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target majority"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\CORE i5\Desktop\Cusos en Proceso\Algorithms\Divide and Conquer\cmake-build-debug\CMakeFiles" --progress-num=9,10 "Built target majority"
 .PHONY : CMakeFiles/majority.dir/all
 
 # Build rule for subdir invocation for target.
@@ -150,6 +181,33 @@ majority: CMakeFiles/majority.dir/rule
 CMakeFiles/majority.dir/clean:
 	$(MAKE) -f CMakeFiles\majority.dir\build.make CMakeFiles/majority.dir/clean
 .PHONY : CMakeFiles/majority.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/QuickSort.dir
+
+# All Build rule for target.
+CMakeFiles/QuickSort.dir/all:
+	$(MAKE) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/depend
+	$(MAKE) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\CORE i5\Desktop\Cusos en Proceso\Algorithms\Divide and Conquer\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target QuickSort"
+.PHONY : CMakeFiles/QuickSort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/QuickSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\CORE i5\Desktop\Cusos en Proceso\Algorithms\Divide and Conquer\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/QuickSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\CORE i5\Desktop\Cusos en Proceso\Algorithms\Divide and Conquer\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/QuickSort.dir/rule
+
+# Convenience name for target.
+QuickSort: CMakeFiles/QuickSort.dir/rule
+
+.PHONY : QuickSort
+
+# clean rule for target.
+CMakeFiles/QuickSort.dir/clean:
+	$(MAKE) -f CMakeFiles\QuickSort.dir\build.make CMakeFiles/QuickSort.dir/clean
+.PHONY : CMakeFiles/QuickSort.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
